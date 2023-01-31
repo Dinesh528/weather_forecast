@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherForecast component Should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class=" mt-5 "
+  >
+    <div
+      class="d-flex"
+    >
+      <form
+        class="row  m-auto"
+      >
+        <div
+          class="col-md-8"
+        >
+          <label
+            class="visually-hidden"
+          >
+            Password
+          </label>
+          <input
+            class="form-control"
+            placeholder="Enter city"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col-md-4"
+        >
+          <button
+            class="btn btn-primary mb-3"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;

@@ -1,15 +1,26 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+To Start the project
+clone the repo from https://github.com/Dinesh528/weather_forecast
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.Enter the city name in the input box and click on the search button 
+3.After Hitting the search button current weather of the entered city and next 5 days weather for every 3 hours are shown below 
+
+
+## Brief about the project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+In this project i have used 2 API's from https://openweathermap.org/,
+first we need api_key for API to work, we can get it by signing up in https://openweathermap.org/
+
+One API is called to display the current weather in city entered by User
+Second API is called to display the weather forecast for next 5 days (including 3 hours once )
+
+This app is styled with react-bootstrap and bootstrap-5
+
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
